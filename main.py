@@ -1,10 +1,7 @@
 import os
-#from dotenv import load_dotenv
 from openai import OpenAI
 client = OpenAI()
 
-#load_dotenv()
-#OPENAI_API_KEY = os.getenv('secret-key')
 
 def side_spec() -> int:
     """
